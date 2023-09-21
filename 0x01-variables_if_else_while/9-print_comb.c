@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <unistd.h>
 /**
  * main - Entry point
  * Description: Prints all possible combinations of single-digit numbers.
@@ -22,8 +22,6 @@ int main(void)
 			putchar(' ');
 		}
 	}
-
-	putchar('$');
 	putchar('\n');
 
 	return (0);
